@@ -1,0 +1,15 @@
+table,thead,th,td{
+    border:1px solid;
+    border-collapse: collapse;
+    padding:10px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+h1{
+    margin-left: 40px;
+}
+
+thead,th{
+    background-color: #224b91;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
