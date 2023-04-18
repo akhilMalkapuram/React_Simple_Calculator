@@ -1,0 +1,39 @@
+button {
+    width: 85px;
+    height: 90px;
+    font-size: 26px;
+    cursor: pointer;
+    border: none;
+    border-top: 1px solid #666;
+    border-right: 1px solid #666;
+  }
+  
+  .digit:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .operator:hover {
+    background-color: #8e8c09;
+  }
+  
+  .fun-keys:hover {
+    background-color: #aba9a9;
+  }
+  
+  
+  .operator {
+    border-right: none;
+    background-color: #b4b110;
+    color: #fff;
+  }
+  
+  .fun-keys {
+    background-color: #c9c8cc;
+  
+  }
+  .plus {
+    border-bottom-right-radius:6px ;
+  }
+  .zero {
+    border-bottom-left-radius: 6px;
+  }

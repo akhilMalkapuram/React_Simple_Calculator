@@ -10,3 +10,26 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.output {
+  outline: none;
+  border: none;
+  width: 340px;
+  height: 70px;
+  font-size: 32px;
+  padding: 2px 10px;
+  background: #333333;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #fff;
+  text-align: right;
+
+}
+
